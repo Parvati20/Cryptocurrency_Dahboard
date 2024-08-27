@@ -1,0 +1,59 @@
+
+
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+  }
+  
+  .header {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex; /* Ensure flex layout */
+    justify-content: space-between; /* Spacing between elements */
+    align-items: center; /* Center items vertically */
+    padding: 15px 20px; /* Optional padding */
+  }
+  
+  .header.dark {
+    --background-color: #333333;
+    --text-color: #ffffff;
+  }
+  
+  .nav {
+    display: flex; /* Ensure flex layout for nav items */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .nav-button {
+    margin: 0 10px; /* Adjust margin as needed */
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: inherit;
+    padding: 10px 15px;
+  }
+  
+  .nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Example hover background */
+  }
+  
+  .toggle-switch {
+    cursor: pointer;
+    margin-left: auto; /* Push toggle switch to the right */
+  }
+  
+  .icon {
+    font-size: 20px;
+  }
+  
+  /* Additional styling for login and signup buttons */
+  .nav-button.login,
+  .nav-button.signup {
+    margin-left: auto; /* Push these buttons to the right */
+  }
+  .logo{
+    font-weight: bolder;
+    font-size: x-large;
+  }
+  
